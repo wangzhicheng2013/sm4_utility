@@ -1,0 +1,1 @@
+gcc -g -o sm4_utility sm4_main.c sm4_utility.c file_utility.c -I ./ -I ./include/ -L ./ libcrypto.a -ldl -pthread  
